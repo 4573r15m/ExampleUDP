@@ -27,8 +27,6 @@ namespace ExampleUDP
 
                 switch (input.Command)
                 {
-
-
                     case 0x00:
                         output.Command = 0x00;
                         output.Text = input.Text;
